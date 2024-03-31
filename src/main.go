@@ -15,5 +15,6 @@ func init() {
 func main() {
 	router := gin.Default()
 	routers.InitializeUserRoutes(router)
+	routers.InitializeDMRoutes(router)
 	router.Run()
 }
